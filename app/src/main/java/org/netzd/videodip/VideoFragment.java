@@ -51,7 +51,7 @@ public class VideoFragment extends Fragment {
         Uri videoUri = Uri.parse(video);
 
         reproductorView.setVideoURI(videoUri);
-        reproductorView.s
+        reproductorView.start();
 
     }
 }
